@@ -1,0 +1,11 @@
+{
+  "generator-backbone": {
+    "testFramework": "mocha",
+    "templateFramework": "lodash",
+    "compassBootstrap": true,
+    "includeRequireJS": true,
+    "authorName": "Sreedhar M B",
+    "projectName": "sample",
+    "appPath": "sample"
+  }
+}
