@@ -26,7 +26,9 @@ require.config({
             exports: 'Backbone'
         },
         bootstrap: {
-            deps: ['jquery'],
+            deps: [
+                'jquery'
+            ],
             exports: 'jquery'
         }
     },
@@ -34,7 +36,12 @@ require.config({
         jquery: '../com/vendor/jquery/dist/jquery',
         backbone: '../com/vendor/backbone/backbone',
         underscore: '../com/vendor/underscore/underscore',
-        bootstrap: '../com/vendor/sass-bootstrap/dist/js/bootstrap'
+        bootstrap: '../com/vendor/bootstrap/dist/js/bootstrap',
+        modernizr: '../com/vendor/modernizr/modernizr',
+        requirejs: '../com/vendor/requirejs/require',
+        json2: '../com/vendor/json2/json2',
+        text: '../com/vendor/text/text',
+        'sass-bootstrap': '../com/vendor/sass-bootstrap/dist/js/bootstrap'
     }
 });
 
